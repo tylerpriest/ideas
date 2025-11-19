@@ -57,14 +57,14 @@ export const Colors = {
 };
 
 export const Typography = {
-  // Font Families
+  // Font Families (using system fonts as fallbacks until custom fonts loaded)
   fonts: {
-    display: 'CrimsonText-Semibold', // For timer, headings, daily pointers
-    displayRegular: 'CrimsonText-Regular',
-    body: 'SourceSerifPro-Regular', // For body text, teachings, journal
-    bodySemibold: 'SourceSerifPro-Semibold',
-    ui: 'Inter-Medium', // For UI labels, buttons, navigation
-    uiRegular: 'Inter-Regular',
+    display: 'Georgia-Bold', // For timer, headings, daily pointers
+    displayRegular: 'Georgia',
+    body: 'Georgia', // For body text, teachings, journal
+    bodySemibold: 'Georgia-Bold',
+    ui: 'System', // For UI labels, buttons, navigation
+    uiRegular: 'System',
   },
 
   // Type Scale
