@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "title": "External Resources Library",
+    "description": "Curated collection of authentic teachings from Direct Path teachers and traditional sources",
+    "version": "1.0",
+    "last_updated": "2025-11-19"
+  },
+  "teachers": [
+    {
+      "id": "rupert-spira",
+      "name": "Rupert Spira",
+      "tradition": "Direct Path, Advaita Vedanta, Kashmir Shaivism",
+      "bio": "English philosopher, author and potter based in Oxford, UK. Student of Francis Lucille. Teaches the Direct Path approach to non-dual recognition.",
+      "website": "https://rupertspira.com",
+      "youtube": "https://www.youtube.com/@rupertspira",
+      "books": [
+        {
+          "title": "The Transparency of Things: Contemplating the Nature of Experience",
+          "year": 2008,
+          "publisher": "Non-Duality Press",
+          "level": "foundational",
+          "description": "Contemplations on the nature of experience"
+        },
+        {
+          "title": "Presence, Volume I: The Art of Peace and Happiness",
+          "year": 2011,
+          "publisher": "Non-Duality Press",
+          "level": "foundational"
+        },
+        {
+          "title": "Presence, Volume II: The Intimacy of All Experience",
+          "year": 2011,
+          "publisher": "Non-Duality Press",
+          "level": "intermediate"
+        },
+        {
+          "title": "The Ashes of Love: Sayings on the Essence of Non-Duality",
+          "year": 2013,
+          "publisher": "Non-Duality Press",
+          "level": "intermediate"
+        },
+        {
+          "title": "The Light of Pure Knowing: Thirty Meditations on the Essence of Non-Duality",
+          "year": 2014,
+          "publisher": "Sahaja Publications",
+          "level": "intermediate",
+          "description": "Guided meditations for recognition"
+        },
+        {
+          "title": "Being Aware of Being Aware",
+          "year": 2017,
+          "publisher": "Sahaja Publications",
+          "level": "foundational",
+          "description": "The essence of meditation series"
+        },
+        {
+          "title": "Transparent Body, Luminous World: The Tantric Yoga of Sensation and Perception",
+          "year": 2016,
+          "publisher": "Sahaja Publications",
+          "level": "advanced",
+          "description": "Exploring consciousness through the body"
+        },
+        {
+          "title": "The Nature of Consciousness",
+          "year": 2017,
+          "publisher": "Sahaja Publications",
+          "level": "advanced"
+        }
+      ],
+      "online_resources": [
+        {
+          "type": "website",
+          "url": "https://rupertspira.com",
+          "description": "Official website with teachings, events, and shop"
+        },
+        {
+          "type": "free_meditations",
+          "url": "https://enlightenmentcourse.rupertspira.com",
+          "description": "Free Five-Day Guided Meditation Video Series"
+        },
+        {
+          "type": "video_library",
+          "url": "https://non-duality.rupertspira.com",
+          "description": "Subscription-based video library with hundreds of teachings"
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/@rupertspira",
+          "description": "YouTube channel with free talks and meditations"
+        }
+      ],
+      "key_teachings": [
+        "The Direct Path to recognition",
+        "Awareness is the knowing element in all experience",
+        "Peace is the nature of awareness, not caused by circumstances",
+        "We share our being with everyone and everything"
+      ]
+    },
+    {
+      "id": "francis-lucille",
+      "name": "Francis Lucille",
+      "tradition": "Advaita Vedanta, Direct Path",
+      "bio": "Spiritual teacher in the tradition of Advaita Vedanta. Student of Jean Klein. Teacher of Rupert Spira. Known for direct pointing and spontaneous responses from not-knowing.",
+      "website": "https://francislucille.com",
+      "youtube": "https://www.youtube.com/c/francislucille",
+      "books": [
+        {
+          "title": "Eternity Now",
+          "publisher": "Non-Duality Press",
+          "level": "intermediate",
+          "description": "Dialogues on awareness and presence"
+        },
+        {
+          "title": "The Perfume of Silence",
+          "publisher": "Non-Duality Press",
+          "level": "intermediate",
+          "description": "Contemplations on non-duality"
+        },
+        {
+          "title": "Truth Love Beauty",
+          "publisher": "Non-Duality Press",
+          "level": "advanced",
+          "description": "In-depth teachings on consciousness"
+        }
+      ],
+      "online_resources": [
+        {
+          "type": "website",
+          "url": "https://francislucille.com",
+          "description": "Official website with teachings, events, and resources"
+        },
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/c/francislucille",
+          "description": "YouTube channel with talks, Q&As, and webcasts (25K+ subscribers, 500+ videos)"
+        },
+        {
+          "type": "video_library",
+          "url": "https://www.stillnessspeaks.com/teacher/francis-lucille",
+          "description": "Stillness Speaks library with LIVE webcasts"
+        },
+        {
+          "type": "interviews",
+          "url": "https://scienceandnonduality.com",
+          "description": "Science and Nonduality (SAND) interviews and talks"
+        }
+      ],
+      "key_teachings": [
+        "You are the happiness you seek",
+        "The seeker is the sought",
+        "Teaching from the innocence and spontaneity of not-knowing",
+        "Welcoming all experience without resistance"
+      ]
+    },
+    {
+      "id": "ramana-maharshi",
+      "name": "Sri Ramana Maharshi",
+      "tradition": "Advaita Vedanta",
+      "bio": "One of the most revered Indian sages of the 20th century. Known for the practice of self-inquiry (Who am I?) and the teaching of silence.",
+      "books": [
+        {
+          "title": "Be As You Are: The Teachings of Sri Ramana Maharshi",
+          "editor": "David Godman",
+          "level": "foundational",
+          "description": "Essential compilation of Ramana's teachings organized by topic"
+        },
+        {
+          "title": "Who Am I? (Nan Yar?)",
+          "level": "foundational",
+          "description": "The fundamental text on self-inquiry"
+        },
+        {
+          "title": "Talks with Sri Ramana Maharshi",
+          "level": "intermediate",
+          "description": "Dialogues and conversations recorded over many years"
+        },
+        {
+          "title": "The Spiritual Teaching of Ramana Maharshi",
+          "level": "intermediate",
+          "description": "Core teachings compiled"
+        }
+      ],
+      "key_teachings": [
+        "Self-inquiry: Who am I?",
+        "The Self is ever-present awareness",
+        "Abide in the Heart",
+        "Silence is the highest teaching"
+      ]
+    },
+    {
+      "id": "nisargadatta-maharaj",
+      "name": "Sri Nisargadatta Maharaj",
+      "tradition": "Advaita Vedanta",
+      "bio": "20th century Indian guru and sage. Tobacco seller who realized his true nature through the practice of 'I Am'. Known for direct, uncompromising teachings.",
+      "books": [
+        {
+          "title": "I Am That",
+          "editor": "Maurice Frydman",
+          "level": "foundational",
+          "description": "Classic dialogues in Q&A format. One of the most important books on non-duality."
+        },
+        {
+          "title": "Prior to Consciousness",
+          "level": "advanced",
+          "description": "Later talks, more uncompromising"
+        },
+        {
+          "title": "Consciousness and the Absolute",
+          "level": "advanced",
+          "description": "Final teachings"
+        }
+      ],
+      "key_teachings": [
+        "Focus on 'I Am'",
+        "You are prior to consciousness",
+        "Abide in the sense of being",
+        "The guru is within"
+      ]
+    },
+    {
+      "id": "jean-klein",
+      "name": "Jean Klein",
+      "tradition": "Direct Path, Kashmir Shaivism",
+      "bio": "French teacher of non-duality. Teacher of Francis Lucille. Integrated Western sensibility with Eastern wisdom.",
+      "books": [
+        {
+          "title": "I Am",
+          "level": "foundational",
+          "description": "Introduction to the teaching"
+        },
+        {
+          "title": "Who Am I?",
+          "level": "foundational",
+          "description": "Essential dialogues"
+        },
+        {
+          "title": "The Ease of Being",
+          "level": "intermediate",
+          "description": "Teachings on effortless presence"
+        },
+        {
+          "title": "Transmission of the Flame",
+          "level": "advanced",
+          "description": "Deep contemplations"
+        }
+      ],
+      "key_teachings": [
+        "Body awareness as gateway to presence",
+        "The art of listening",
+        "Living from wholeness",
+        "Welcoming all experience"
+      ]
+    }
+  ],
+  "classical_texts": [
+    {
+      "title": "Ashtavakra Gita",
+      "tradition": "Advaita Vedanta",
+      "period": "Ancient",
+      "level": "advanced",
+      "description": "Pure non-dual teaching. Direct and uncompromising. One of the most radical Advaita texts.",
+      "recommended_translations": [
+        "Translation by Thomas Byrom",
+        "Translation by John Richards"
+      ]
+    },
+    {
+      "title": "Avadhuta Gita",
+      "tradition": "Advaita Vedanta",
+      "period": "Ancient",
+      "level": "advanced",
+      "description": "Song of the free being. Pure Advaita."
+    },
+    {
+      "title": "Vivekachudamani (Crest-Jewel of Discrimination)",
+      "author": "Adi Shankaracharya",
+      "tradition": "Advaita Vedanta",
+      "period": "8th century CE",
+      "level": "intermediate",
+      "description": "Systematic exposition of Advaita philosophy and practice"
+    },
+    {
+      "title": "Aparokshanubhuti",
+      "author": "Adi Shankaracharya",
+      "tradition": "Advaita Vedanta",
+      "period": "8th century CE",
+      "level": "intermediate",
+      "description": "Direct realization of the Self. Short and practical."
+    },
+    {
+      "title": "Vedantasara",
+      "author": "Sadananda Yogendra",
+      "tradition": "Advaita Vedanta",
+      "level": "foundational",
+      "description": "One of the best introductory texts for Vedanta study. Recommended by Swami Sarvapriyananda."
+    },
+    {
+      "title": "Upanishads",
+      "tradition": "Vedanta",
+      "period": "Ancient (800-200 BCE)",
+      "level": "foundational to advanced",
+      "description": "Foundation texts of Advaita Vedanta",
+      "key_upanishads": [
+        "Mandukya Upanishad (shortest, focused on OM and consciousness)",
+        "Brihadaranyaka Upanishad",
+        "Chandogya Upanishad",
+        "Kena Upanishad",
+        "Isha Upanishad"
+      ]
+    },
+    {
+      "title": "Bhagavad Gita",
+      "tradition": "Vedanta, Yoga",
+      "period": "Ancient",
+      "level": "foundational",
+      "description": "Includes non-dual teachings within a broader spiritual context",
+      "recommended_commentaries": [
+        "Commentary by Swami Chinmayananda",
+        "Commentary by Eknath Easwaran"
+      ]
+    }
+  ],
+  "modern_teachers": [
+    {
+      "name": "James Swartz",
+      "books": ["The Essence of Enlightenment", "How to Attain Enlightenment"],
+      "description": "Makes Vedanta accessible to modern Western audience",
+      "level": "foundational"
+    },
+    {
+      "name": "Swami Sarvapriyananda",
+      "resources": ["YouTube channel with Vedanta lectures"],
+      "description": "Clear, systematic teaching of traditional Advaita Vedanta",
+      "level": "foundational to advanced"
+    },
+    {
+      "name": "Mooji",
+      "resources": ["YouTube channel", "Satsangs"],
+      "description": "Student of Papaji. Uses pointing and inquiry.",
+      "level": "foundational"
+    },
+    {
+      "name": "Adyashanti",
+      "books": ["The End of Your World", "Falling into Grace", "The Way of Liberation"],
+      "description": "American teacher blending Zen and Advaita",
+      "level": "foundational to intermediate"
+    },
+    {
+      "name": "Eckhart Tolle",
+      "books": ["The Power of Now", "A New Earth"],
+      "description": "Popular Western teacher on presence and awareness",
+      "level": "foundational"
+    }
+  ],
+  "audio_resources": [
+    {
+      "platform": "Insight Timer",
+      "teachers": ["Rupert Spira", "Adyashanti", "Mooji"],
+      "description": "Free meditation app with thousands of guided meditations and talks",
+      "url": "https://insighttimer.com"
+    },
+    {
+      "platform": "Stillness Speaks",
+      "description": "Library of video and audio teachings from non-dual teachers",
+      "url": "https://www.stillnessspeaks.com",
+      "subscription": true
+    },
+    {
+      "platform": "Science and Nonduality (SAND)",
+      "description": "Conference talks, interviews, and discussions",
+      "url": "https://scienceandnonduality.com"
+    }
+  ],
+  "video_resources": [
+    {
+      "name": "Rupert Spira YouTube",
+      "url": "https://www.youtube.com/@rupertspira",
+      "content": "Meditations, talks, Q&As",
+      "free": true
+    },
+    {
+      "name": "Francis Lucille YouTube",
+      "url": "https://www.youtube.com/c/francislucille",
+      "content": "Talks, Q&As, webcasts (500+ videos)",
+      "free": true
+    },
+    {
+      "name": "Mooji YouTube",
+      "url": "https://www.youtube.com/mooji",
+      "content": "Satsangs, pointings, guided meditations",
+      "free": true
+    },
+    {
+      "name": "Adyashanti YouTube",
+      "content": "Talks and teachings",
+      "free": true
+    }
+  ],
+  "recommended_study_paths": [
+    {
+      "level": "beginner",
+      "path": "Start Here",
+      "resources": [
+        "Rupert Spira: 'Being Aware of Being Aware' (book)",
+        "Rupert Spira: Free meditation series (online)",
+        "Ramana Maharshi: 'Be As You Are' compiled by David Godman",
+        "YouTube: Rupert Spira's channel (start with meditation videos)"
+      ]
+    },
+    {
+      "level": "intermediate",
+      "path": "Deepening Understanding",
+      "resources": [
+        "Nisargadatta: 'I Am That'",
+        "Rupert Spira: 'The Nature of Consciousness'",
+        "Francis Lucille videos and webcasts",
+        "Classical text: Vedantasara",
+        "Practice: Regular self-inquiry"
+      ]
+    },
+    {
+      "level": "advanced",
+      "path": "Living the Understanding",
+      "resources": [
+        "Ashtavakra Gita",
+        "Rupert Spira: 'Transparent Body, Luminous World'",
+        "Upanishads (Mandukya, Brihadaranyaka)",
+        "Francis Lucille: 'Truth Love Beauty'",
+        "Regular retreat attendance or online satsangs"
+      ]
+    }
+  ],
+  "usage_notes": {
+    "permissions": "This resource list is for educational purposes. When integrating actual content from teachers, proper permissions and licensing must be obtained.",
+    "attribution": "Always attribute teachings to their sources.",
+    "fair_use": "Short quotes may fall under fair use, but longer excerpts require permission.",
+    "suggested_partnerships": [
+      "Rupert Spira for guided meditations",
+      "Francis Lucille for Q&A content",
+      "Non-Duality Press for book excerpts"
+    ]
+  }
+}

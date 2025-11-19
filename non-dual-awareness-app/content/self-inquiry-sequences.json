@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "title": "Self-Inquiry Sequences",
+    "description": "Structured exploration paths for investigating the nature of self and awareness",
+    "version": "1.0"
+  },
+  "sequences": [
+    {
+      "id": "who-am-i",
+      "title": "Who Am I? - Classical Self-Inquiry",
+      "description": "The foundational inquiry into the nature of the self",
+      "level": "foundational",
+      "estimated_duration": "15-20 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Sit comfortably and allow your body to settle. Take a few deep breaths.",
+          "duration": "1-2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Notice that you are aware right now. Simply recognize this obvious fact: awareness is present.",
+          "duration": "1 minute"
+        },
+        {
+          "step": 3,
+          "instruction": "Ask yourself: Who am I? Don't answer with thoughts. Instead, turn attention back toward what is asking the question.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Notice thoughts arising: 'I am a person,' 'I am my body,' 'I am my mind.' Recognize these are thoughts appearing in awareness. You are what is aware of these thoughts.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Ask again: Who or what is aware of these thoughts? Let attention rest in the source of awareness itself.",
+          "duration": "3-4 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "If you find yourself thinking about awareness, gently return to being awareness. You cannot think your way to what you are. You can only recognize what you already are.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 7,
+          "instruction": "Rest as awareness. Let all experience come and go. Notice that awareness itself never comes or goes.",
+          "duration": "3-5 minutes"
+        },
+        {
+          "step": 8,
+          "instruction": "Gently return to the room. Notice that the awareness you recognized in stillness is the same awareness present in activity.",
+          "duration": "1 minute"
+        }
+      ]
+    },
+    {
+      "id": "what-is-aware",
+      "title": "What Is Aware? - Tracing Experience to Its Source",
+      "description": "Following the thread of awareness through different types of experience",
+      "level": "foundational",
+      "estimated_duration": "10-15 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Notice a thought arising. Ask: What is aware of this thought?",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Notice a feeling or emotion. Ask: What is aware of this feeling?",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Notice a bodily sensation. Ask: What is aware of this sensation?",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Notice a perception (sight or sound). Ask: What is aware of this perception?",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Notice that the same awareness is aware of all these different experiences. This awareness is what you are.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "Rest as this awareness. Let all experience come and go, recognized as appearances in awareness.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "investigating-separate-self",
+      "title": "Investigating the Separate Self",
+      "description": "Looking directly at the sense of being a separate person",
+      "level": "intermediate",
+      "estimated_duration": "15-20 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Notice the sense of being 'me'—a separate person located in the body. Just notice this sense without judgment.",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask: Where is this 'me' located? Is it in the head? The chest? Somewhere else? Look carefully.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Ask: What is the shape, size, or color of this 'me'? Can these qualities be found?",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Notice thoughts about 'me' arising: 'I am this,' 'I am that.' Recognize these are thoughts appearing in awareness, not what you are.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Ask: Can this separate 'me' actually be found? Or is it just a thought-feeling that comes and goes?",
+          "duration": "3-4 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "Notice what remains when the search for a separate self is abandoned. Simply awareness, present and obvious.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "nature-of-thought",
+      "title": "The Nature of Thought",
+      "description": "Seeing thoughts as objects in awareness",
+      "level": "intermediate",
+      "estimated_duration": "10-15 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Notice a thought arising. Recognize it as an object appearing in awareness.",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask: Who or what is aware of this thought? Notice the awareness that knows the thought.",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Watch thoughts coming and going like clouds in the sky. Notice that awareness is not affected by thoughts.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Notice the space between thoughts. What is present in this space? Only awareness.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Ask: If I am not my thoughts, who am I? Rest in the awareness that knows all thoughts.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "body-investigation",
+      "title": "Am I the Body?",
+      "description": "Investigating the relationship between awareness and the body",
+      "level": "intermediate",
+      "estimated_duration": "15-20 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Close your eyes and notice bodily sensations. Recognize these sensations as objects appearing in awareness.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask: What is aware of these sensations? Who or what knows the body?",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Notice that the body is known through sensations. When sensations are not present (as in deep sleep), the body is not known. But awareness remains.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Ask: Am I the body, or am I what is aware of the body? If the body appears in awareness, how can I be limited to the body?",
+          "duration": "3-4 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Notice thoughts arising: 'But I must be the body!' Recognize these are thoughts appearing in awareness, not direct experience.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "Rest as awareness. Notice the body appears in you, as awareness. You do not appear in the body.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "am-i-aware",
+      "title": "Am I Aware? - The Simplest Recognition",
+      "description": "The most direct inquiry, returning immediately to presence",
+      "level": "foundational",
+      "estimated_duration": "5-10 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Ask yourself: Am I aware? Notice the immediate recognition: Yes.",
+          "duration": "30 seconds"
+        },
+        {
+          "step": 2,
+          "instruction": "Don't think about it. Don't analyze. Simply notice the obvious fact: awareness is present.",
+          "duration": "1 minute"
+        },
+        {
+          "step": 3,
+          "instruction": "Ask again: Am I aware? Notice there is no gap between the question and recognition. It is immediate.",
+          "duration": "1 minute"
+        },
+        {
+          "step": 4,
+          "instruction": "This awareness that recognizes itself—this is what you are. Not a thought about awareness, but awareness itself.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Rest as awareness. Whenever attention wanders into thought or activity, gently ask: Am I aware? Return home.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "awareness-in-activity",
+      "title": "Awareness in Daily Activity",
+      "description": "Recognizing awareness while engaged in everyday tasks",
+      "level": "intermediate",
+      "estimated_duration": "Throughout the day",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "While doing a simple task (washing dishes, walking, eating), pause and ask: Am I aware?",
+          "duration": "10 seconds"
+        },
+        {
+          "step": 2,
+          "instruction": "Notice that awareness is present even during activity. You don't have to stop doing to be aware.",
+          "duration": "20 seconds"
+        },
+        {
+          "step": 3,
+          "instruction": "Continue the activity, but let attention rest in awareness rather than only in the activity.",
+          "duration": "1-2 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Notice: activity appears in awareness. Awareness is not disturbed by activity.",
+          "duration": "30 seconds"
+        },
+        {
+          "step": 5,
+          "instruction": "Repeat this throughout the day with different activities. Let awareness become the background of all experience.",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": "investigating-happiness",
+      "title": "Where Is Happiness?",
+      "description": "Investigating the source of happiness and peace",
+      "level": "advanced",
+      "estimated_duration": "15-20 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Think of a time when you felt happy. Recall the experience as vividly as possible.",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask: Did the happiness come from the object or situation? Or did it come from within?",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Notice that when desire was fulfilled, seeking temporarily stopped. In that moment, what you are was revealed.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Ask: If happiness came from objects, why does it fade? Why must I keep seeking new objects?",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Recognize: happiness is the nature of awareness itself. It is revealed when seeking ceases, not when an object is acquired.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "Rest as awareness. Notice the quiet joy, the causeless peace that is always present as your nature.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "shared-being",
+      "title": "Investigating Shared Being",
+      "description": "Recognizing the oneness of awareness",
+      "level": "advanced",
+      "estimated_duration": "15-20 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Think of another person. Notice the sense that they are 'over there' and you are 'here.'",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask: What is aware of the thought of this person? Your awareness. Now ask: What are they aware with? Awareness.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Ask: Can you find a boundary to awareness? Where does 'your' awareness end and 'their' awareness begin?",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Notice that awareness has no boundaries. The belief in separate awarenesses is just a thought.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Recognize: there is only one awareness, appearing from different perspectives. We share our being.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "Rest in this recognition. Notice how the sense of separation dissolves in the recognition of shared being.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    },
+    {
+      "id": "welcoming-experience",
+      "title": "Welcoming All Experience",
+      "description": "Learning to allow experience without resistance",
+      "level": "advanced",
+      "estimated_duration": "15-20 minutes",
+      "steps": [
+        {
+          "step": 1,
+          "instruction": "Notice an uncomfortable feeling or difficult thought. Don't try to change it.",
+          "duration": "2 minutes"
+        },
+        {
+          "step": 2,
+          "instruction": "Ask: What is aware of this discomfort? Notice that awareness itself is not uncomfortable.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 3,
+          "instruction": "Notice any resistance to the experience. Recognize resistance itself as an object appearing in awareness.",
+          "duration": "2-3 minutes"
+        },
+        {
+          "step": 4,
+          "instruction": "Allow the experience to be exactly as it is. Don't push it away, don't pull it close. Simply let it be.",
+          "duration": "3-4 minutes"
+        },
+        {
+          "step": 5,
+          "instruction": "Notice that when resistance ceases, even difficult experience is welcomed in awareness. This is acceptance.",
+          "duration": "3 minutes"
+        },
+        {
+          "step": 6,
+          "instruction": "Rest as awareness, the allowing space in which all experience is embraced.",
+          "duration": "3-5 minutes"
+        }
+      ]
+    }
+  ]
+}

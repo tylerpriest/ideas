@@ -1,0 +1,234 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-11-19",
+  "description": "Master index for Non-Dual Awareness App content library",
+  "content_files": {
+    "daily_pointers": {
+      "file": "daily-pointers.json",
+      "type": "pointers",
+      "count": 120,
+      "version": "1.0",
+      "description": "Brief daily contemplation pointers",
+      "size_kb": 35,
+      "themes": [
+        "awareness",
+        "peace",
+        "happiness",
+        "inquiry",
+        "love",
+        "self",
+        "recognition",
+        "oneness",
+        "acceptance",
+        "meditation",
+        "body",
+        "direct-path"
+      ]
+    },
+    "core_teachings": {
+      "file": "core-teachings.json",
+      "type": "teachings",
+      "count": 30,
+      "categories": 6,
+      "version": "1.0",
+      "description": "In-depth contemplations organized by theme",
+      "size_kb": 60,
+      "category_list": [
+        "nature-of-awareness",
+        "nature-of-experience",
+        "nature-of-peace",
+        "pathless-path",
+        "being-and-love",
+        "investigation-and-inquiry",
+        "living-understanding"
+      ],
+      "levels": ["foundational", "intermediate", "advanced"]
+    },
+    "self_inquiry_sequences": {
+      "file": "self-inquiry-sequences.json",
+      "type": "guided_practices",
+      "count": 10,
+      "version": "1.0",
+      "description": "Step-by-step guided investigation paths",
+      "size_kb": 25,
+      "duration_range": "5-20 minutes",
+      "sequences": [
+        {
+          "id": "who-am-i",
+          "title": "Who Am I?",
+          "level": "foundational",
+          "duration": "15-20 min"
+        },
+        {
+          "id": "what-is-aware",
+          "title": "What Is Aware?",
+          "level": "foundational",
+          "duration": "10-15 min"
+        },
+        {
+          "id": "investigating-separate-self",
+          "title": "Investigating the Separate Self",
+          "level": "intermediate",
+          "duration": "15-20 min"
+        },
+        {
+          "id": "nature-of-thought",
+          "title": "The Nature of Thought",
+          "level": "intermediate",
+          "duration": "10-15 min"
+        },
+        {
+          "id": "body-investigation",
+          "title": "Am I the Body?",
+          "level": "intermediate",
+          "duration": "15-20 min"
+        },
+        {
+          "id": "am-i-aware",
+          "title": "Am I Aware?",
+          "level": "foundational",
+          "duration": "5-10 min"
+        },
+        {
+          "id": "awareness-in-activity",
+          "title": "Awareness in Daily Activity",
+          "level": "intermediate",
+          "duration": "Throughout day"
+        },
+        {
+          "id": "investigating-happiness",
+          "title": "Where Is Happiness?",
+          "level": "advanced",
+          "duration": "15-20 min"
+        },
+        {
+          "id": "shared-being",
+          "title": "Investigating Shared Being",
+          "level": "advanced",
+          "duration": "15-20 min"
+        },
+        {
+          "id": "welcoming-experience",
+          "title": "Welcoming All Experience",
+          "level": "advanced",
+          "duration": "15-20 min"
+        }
+      ]
+    },
+    "external_resources": {
+      "file": "external-resources.json",
+      "type": "references",
+      "version": "1.0",
+      "description": "Curated library of authentic teacher resources",
+      "size_kb": 20,
+      "includes": {
+        "teachers": 5,
+        "books": 40,
+        "online_platforms": 10,
+        "classical_texts": 7,
+        "study_paths": 3
+      }
+    }
+  },
+  "statistics": {
+    "total_content_items": 160,
+    "total_size_kb": 140,
+    "languages": ["en"],
+    "content_types": [
+      "pointers",
+      "teachings",
+      "guided_practices",
+      "external_references"
+    ]
+  },
+  "usage_recommendations": {
+    "beginner_start": [
+      "Daily pointer each morning",
+      "Start with 'Am I Aware?' sequence (5-10 min)",
+      "Read 'Nature of Awareness' foundational teachings",
+      "Explore external resource: Rupert Spira YouTube"
+    ],
+    "intermediate_practice": [
+      "Rotate through all inquiry sequences",
+      "Study intermediate core teachings",
+      "Practice 'Awareness in Daily Activity'",
+      "Read 'I Am That' by Nisargadatta"
+    ],
+    "advanced_exploration": [
+      "Advanced inquiry sequences",
+      "Advanced core teachings",
+      "Study classical texts (Ashtavakra Gita)",
+      "Attend retreats or online satsangs"
+    ]
+  },
+  "app_integration": {
+    "content_delivery": "Bundle with app or fetch on first launch",
+    "caching": "Cache locally after first download",
+    "updates": "Check for content updates weekly",
+    "offline_support": true,
+    "search_fields": ["title", "content", "theme", "level"],
+    "filter_options": ["theme", "level", "duration", "category"],
+    "sort_options": ["random", "alphabetical", "level", "recently_added"]
+  },
+  "feature_mapping": {
+    "sit_and_be": {
+      "content_sources": ["self_inquiry_sequences"],
+      "optional_prompts": "core_teachings"
+    },
+    "daily_pointer": {
+      "content_source": "daily_pointers",
+      "selection": "random or sequential"
+    },
+    "contemplations_library": {
+      "content_sources": ["core_teachings", "daily_pointers"],
+      "organization": "by category and level"
+    },
+    "self_inquiry": {
+      "content_source": "self_inquiry_sequences",
+      "features": "step-by-step with timer"
+    },
+    "resources": {
+      "content_source": "external_resources",
+      "display": "categorized links and recommendations"
+    }
+  },
+  "content_philosophy": {
+    "principles": [
+      "Point directly to awareness",
+      "Use simple, clear language",
+      "Invite recognition, not belief",
+      "Honor authentic teachings",
+      "Remain practical and applicable"
+    ],
+    "what_to_avoid": [
+      "Philosophical complexity",
+      "Jargon without explanation",
+      "Prescriptive 'shoulds'",
+      "Creating dependency",
+      "Spiritual materialism"
+    ]
+  },
+  "roadmap": {
+    "current_version": "1.0.0",
+    "next_version": "1.1.0",
+    "planned_additions": [
+      "Expand to 365 daily pointers",
+      "Add 20 more core teachings",
+      "Create themed collections",
+      "Add audio versions",
+      "Multi-language support"
+    ]
+  },
+  "permissions": {
+    "original_content": "All JSON files except external-resources.json contain original contemplations inspired by Direct Path teachings, created for educational purposes",
+    "external_references": "external-resources.json contains references only. Actual content integration requires permissions",
+    "attribution": "When quoting teachers, always provide attribution",
+    "licensing": "To be determined based on app distribution model"
+  },
+  "quality_assurance": {
+    "accuracy": "All content reviewed for alignment with Direct Path teachings",
+    "clarity": "Language tested for accessibility and clarity",
+    "technical": "JSON validated and tested for parsing",
+    "accessibility": "Content written to be screen-reader friendly"
+  }
+}

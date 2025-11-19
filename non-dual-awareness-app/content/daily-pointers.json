@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "title": "Daily Pointers",
+    "description": "Brief pointers to recognition, 1-3 sentences each, for daily contemplation",
+    "count": 120,
+    "version": "1.0"
+  },
+  "pointers": [
+    {
+      "id": 1,
+      "text": "Notice that you are aware right now. This simple fact of awareness is what you truly are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 2,
+      "text": "You are not your thoughts. You are what is aware of thinking.",
+      "theme": "awareness"
+    },
+    {
+      "id": 3,
+      "text": "Peace is not found in experience. It is the background of all experience.",
+      "theme": "peace"
+    },
+    {
+      "id": 4,
+      "text": "Before the next thought arises, what are you?",
+      "theme": "inquiry"
+    },
+    {
+      "id": 5,
+      "text": "Happiness is not caused by getting what you want. It is revealed when seeking ceases.",
+      "theme": "happiness"
+    },
+    {
+      "id": 6,
+      "text": "The separate self is not an entity. It is an activity of thinking and feeling that comes and goes.",
+      "theme": "self"
+    },
+    {
+      "id": 7,
+      "text": "Awareness is always present. Notice it is here now, even as you read these words.",
+      "theme": "awareness"
+    },
+    {
+      "id": 8,
+      "text": "You share your being with everyone and everything. This recognition is love.",
+      "theme": "love"
+    },
+    {
+      "id": 9,
+      "text": "The peace you long for is the peace you are.",
+      "theme": "peace"
+    },
+    {
+      "id": 10,
+      "text": "Can you find a time when you are not aware? Awareness is eternal, timeless.",
+      "theme": "awareness"
+    },
+    {
+      "id": 11,
+      "text": "Feelings come and go in awareness. Awareness remains untouched.",
+      "theme": "awareness"
+    },
+    {
+      "id": 12,
+      "text": "You are the happiness you seek.",
+      "theme": "happiness",
+      "attribution": "Francis Lucille"
+    },
+    {
+      "id": 13,
+      "text": "There is no distance between you and what you are. Recognition is immediate.",
+      "theme": "recognition"
+    },
+    {
+      "id": 14,
+      "text": "The body appears in awareness. You are not limited to the body.",
+      "theme": "body"
+    },
+    {
+      "id": 15,
+      "text": "Thoughts cannot know awareness. Awareness knows thoughts.",
+      "theme": "awareness"
+    },
+    {
+      "id": 16,
+      "text": "Right now, before any doing, what are you?",
+      "theme": "inquiry"
+    },
+    {
+      "id": 17,
+      "text": "The world appears in your awareness, not you in the world.",
+      "theme": "awareness"
+    },
+    {
+      "id": 18,
+      "text": "Peace is uncaused. It does not depend on circumstances.",
+      "theme": "peace"
+    },
+    {
+      "id": 19,
+      "text": "You have never left home. You are already what you are seeking.",
+      "theme": "recognition"
+    },
+    {
+      "id": 20,
+      "text": "Notice the space between thoughts. This aware space is what you are.",
+      "theme": "awareness"
+    },
+    {
+      "id": 21,
+      "text": "Sensations come and go. What is aware of sensations?",
+      "theme": "inquiry"
+    },
+    {
+      "id": 22,
+      "text": "The separate self cannot be found upon investigation. Look for it now.",
+      "theme": "self"
+    },
+    {
+      "id": 23,
+      "text": "Love is the recognition that we share our being with all things.",
+      "theme": "love"
+    },
+    {
+      "id": 24,
+      "text": "You cannot step out of awareness. It is what you are.",
+      "theme": "awareness"
+    },
+    {
+      "id": 25,
+      "text": "The seeker is the sought. What is looking is what you are looking for.",
+      "theme": "recognition"
+    },
+    {
+      "id": 26,
+      "text": "Perceptions appear in awareness like images on a screen. The screen is never disturbed.",
+      "theme": "awareness"
+    },
+    {
+      "id": 27,
+      "text": "When thinking stops, are you still here? Yes. That is what you are.",
+      "theme": "awareness"
+    },
+    {
+      "id": 28,
+      "text": "Happiness is the nature of awareness, your true nature.",
+      "theme": "happiness"
+    },
+    {
+      "id": 29,
+      "text": "There is no need to change experience. Simply notice what is aware of it.",
+      "theme": "awareness"
+    },
+    {
+      "id": 30,
+      "text": "The sense of 'I' that thinks and chooses is temporary. The 'I am' that witnesses is eternal.",
+      "theme": "self"
+    },
+    {
+      "id": 31,
+      "text": "You are not in the present moment. The present moment appears in you.",
+      "theme": "awareness"
+    },
+    {
+      "id": 32,
+      "text": "Peace is not the absence of activity. It is the presence of awareness.",
+      "theme": "peace"
+    },
+    {
+      "id": 33,
+      "text": "Behind all seeking is the peace you already are.",
+      "theme": "peace"
+    },
+    {
+      "id": 34,
+      "text": "The pathless path: recognize what you already are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 35,
+      "text": "Awareness has no qualities, yet all experience appears in it.",
+      "theme": "awareness"
+    },
+    {
+      "id": 36,
+      "text": "What remains when everything else is removed? Only awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 37,
+      "text": "You cannot become awareness. You can only recognize that you are awareness.",
+      "theme": "recognition"
+    },
+    {
+      "id": 38,
+      "text": "The separate self is a fiction, a habit of thought, not what you are.",
+      "theme": "self"
+    },
+    {
+      "id": 39,
+      "text": "In deep sleep there is peace. Not because experience has ended, but because seeking has ended.",
+      "theme": "peace"
+    },
+    {
+      "id": 40,
+      "text": "Am I aware? This simple question returns you home.",
+      "theme": "inquiry"
+    },
+    {
+      "id": 41,
+      "text": "The content of experience changes constantly. The awareness of experience is unchanging.",
+      "theme": "awareness"
+    },
+    {
+      "id": 42,
+      "text": "You are the knowing presence in which all experience appears.",
+      "theme": "awareness"
+    },
+    {
+      "id": 43,
+      "text": "Resistance creates suffering. Awareness welcomes all experience as itself.",
+      "theme": "acceptance"
+    },
+    {
+      "id": 44,
+      "text": "There is nowhere to go, nothing to achieve. Simply be what you are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 45,
+      "text": "The peace in deep sleep is the peace of your being, always present.",
+      "theme": "peace"
+    },
+    {
+      "id": 46,
+      "text": "Thoughts cannot disturb awareness, just as waves cannot disturb the ocean.",
+      "theme": "awareness"
+    },
+    {
+      "id": 47,
+      "text": "Who is aware of this thought? Find the 'I' that is aware.",
+      "theme": "inquiry"
+    },
+    {
+      "id": 48,
+      "text": "The body is known. What is it that knows the body?",
+      "theme": "inquiry"
+    },
+    {
+      "id": 49,
+      "text": "Happiness is not found in objects. It is the nature of the subject, awareness itself.",
+      "theme": "happiness"
+    },
+    {
+      "id": 50,
+      "text": "Every experience is embraced in awareness, never rejected.",
+      "theme": "acceptance"
+    },
+    {
+      "id": 51,
+      "text": "The progressive path takes time. The direct path is immediate recognition.",
+      "theme": "direct-path"
+    },
+    {
+      "id": 52,
+      "text": "You don't need to purify awareness. It is inherently pure, untouched by experience.",
+      "theme": "awareness"
+    },
+    {
+      "id": 53,
+      "text": "The question 'Who am I?' dissolves the questioner, leaving only awareness.",
+      "theme": "inquiry"
+    },
+    {
+      "id": 54,
+      "text": "Let experience be as it is. You are the allowing space of awareness.",
+      "theme": "acceptance"
+    },
+    {
+      "id": 55,
+      "text": "The world is made of the same knowing awareness that you are.",
+      "theme": "oneness"
+    },
+    {
+      "id": 56,
+      "text": "Peace and happiness are not states to attain. They are the nature of what you are.",
+      "theme": "peace"
+    },
+    {
+      "id": 57,
+      "text": "When you know yourself as awareness, the search for happiness ends.",
+      "theme": "happiness"
+    },
+    {
+      "id": 58,
+      "text": "The separate self appears in awareness. Awareness is never separate.",
+      "theme": "self"
+    },
+    {
+      "id": 59,
+      "text": "Right now, notice: Are you aware? That which says 'yes' is what you are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 60,
+      "text": "Nothing needs to be different for you to be awareness. You already are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 61,
+      "text": "The past and future appear as thoughts now. Only awareness is timeless.",
+      "theme": "awareness"
+    },
+    {
+      "id": 62,
+      "text": "Every sensation, thought, and feeling borrows its existence from awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 63,
+      "text": "You are not the doer. You are the aware presence in which doing appears.",
+      "theme": "awareness"
+    },
+    {
+      "id": 64,
+      "text": "The desire for peace is the call of your true nature, which is already peaceful.",
+      "theme": "peace"
+    },
+    {
+      "id": 65,
+      "text": "Awareness is self-aware. It knows itself without needing thought.",
+      "theme": "awareness"
+    },
+    {
+      "id": 66,
+      "text": "The mind says 'I think.' Awareness says 'I am.'",
+      "theme": "awareness"
+    },
+    {
+      "id": 67,
+      "text": "What you are cannot be lost. It can only be temporarily overlooked.",
+      "theme": "recognition"
+    },
+    {
+      "id": 68,
+      "text": "Everything you experience is intimately close, appearing in your own awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 69,
+      "text": "Meditation is not something awareness does. It is the recognition of awareness itself.",
+      "theme": "meditation"
+    },
+    {
+      "id": 70,
+      "text": "The belief 'I am the body' appears in awareness. Investigate this belief.",
+      "theme": "inquiry"
+    },
+    {
+      "id": 71,
+      "text": "Before knowledge, before experience, what is present? Only awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 72,
+      "text": "Love is the dissolution of the sense of separation.",
+      "theme": "love"
+    },
+    {
+      "id": 73,
+      "text": "The separate self is the belief that awareness is limited to a body-mind.",
+      "theme": "self"
+    },
+    {
+      "id": 74,
+      "text": "Peace is not disturbed by activity. It is the background of all activity.",
+      "theme": "peace"
+    },
+    {
+      "id": 75,
+      "text": "You are that which is looking, not what is seen.",
+      "theme": "awareness"
+    },
+    {
+      "id": 76,
+      "text": "Happiness is what remains when the agitation of seeking subsides.",
+      "theme": "happiness"
+    },
+    {
+      "id": 77,
+      "text": "The direct path: turn attention away from objects toward the subject, awareness.",
+      "theme": "direct-path"
+    },
+    {
+      "id": 78,
+      "text": "Every experience is an expression of infinite awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 79,
+      "text": "The mind cannot grasp awareness. Awareness is prior to mind.",
+      "theme": "awareness"
+    },
+    {
+      "id": 80,
+      "text": "Right now, what is aware of these words? That is what you are.",
+      "theme": "inquiry"
+    },
+    {
+      "id": 81,
+      "text": "You are the common factor in all experience.",
+      "theme": "awareness"
+    },
+    {
+      "id": 82,
+      "text": "Suffering is resistance to what is. Peace is allowing what is.",
+      "theme": "acceptance"
+    },
+    {
+      "id": 83,
+      "text": "The sense of being a separate person is a contraction in awareness, not what you are.",
+      "theme": "self"
+    },
+    {
+      "id": 84,
+      "text": "Awareness is empty of content yet full of knowing.",
+      "theme": "awareness"
+    },
+    {
+      "id": 85,
+      "text": "There is no 'your awareness' and 'my awareness.' There is only awareness.",
+      "theme": "oneness"
+    },
+    {
+      "id": 86,
+      "text": "The world is not made of matter appearing to awareness. It is made of awareness appearing as matter.",
+      "theme": "oneness"
+    },
+    {
+      "id": 87,
+      "text": "Peace is the fragrance of being, always present.",
+      "theme": "peace"
+    },
+    {
+      "id": 88,
+      "text": "Every belief appears in awareness. Awareness believes nothing.",
+      "theme": "awareness"
+    },
+    {
+      "id": 89,
+      "text": "When you stop trying to be something, you discover what you are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 90,
+      "text": "The body-mind is an appearance in awareness, like a character in a dream.",
+      "theme": "body"
+    },
+    {
+      "id": 91,
+      "text": "Rest as awareness. Let all experience come and go.",
+      "theme": "meditation"
+    },
+    {
+      "id": 92,
+      "text": "The search for enlightenment is the activity that obscures what you already are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 93,
+      "text": "No experience can give you awareness. You are already awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 94,
+      "text": "The feeling of 'I' is the presence of awareness mixed with thought.",
+      "theme": "self"
+    },
+    {
+      "id": 95,
+      "text": "Everything you perceive is a modulation of awareness, like waves in the ocean.",
+      "theme": "awareness"
+    },
+    {
+      "id": 96,
+      "text": "There is nothing to practice to be awareness. Simply notice what you already are.",
+      "theme": "recognition"
+    },
+    {
+      "id": 97,
+      "text": "Love is the natural condition when the separate self is seen through.",
+      "theme": "love"
+    },
+    {
+      "id": 98,
+      "text": "Awareness is the light that illuminates all experience.",
+      "theme": "awareness"
+    },
+    {
+      "id": 99,
+      "text": "You are not aware sometimes. You are awareness always.",
+      "theme": "awareness"
+    },
+    {
+      "id": 100,
+      "text": "The progressive path promises future freedom. The direct path recognizes present freedom.",
+      "theme": "direct-path"
+    },
+    {
+      "id": 101,
+      "text": "Peace is not found in stillness versus activity. It is found in recognizing what you are.",
+      "theme": "peace"
+    },
+    {
+      "id": 102,
+      "text": "The separate self lives in time. Awareness is timeless.",
+      "theme": "self"
+    },
+    {
+      "id": 103,
+      "text": "What is it that hears these words? Find that, and you find yourself.",
+      "theme": "inquiry"
+    },
+    {
+      "id": 104,
+      "text": "Awareness is intimate with all experience yet never becomes experience.",
+      "theme": "awareness"
+    },
+    {
+      "id": 105,
+      "text": "The happiness of being needs no reason, no cause, no object.",
+      "theme": "happiness"
+    },
+    {
+      "id": 106,
+      "text": "All spiritual practices are either a preparation for or a celebration of this recognition.",
+      "theme": "recognition"
+    },
+    {
+      "id": 107,
+      "text": "The separate self is the first and primary resistance in awareness.",
+      "theme": "self"
+    },
+    {
+      "id": 108,
+      "text": "Awareness is not passive. It is the active knowing presence behind all experience.",
+      "theme": "awareness"
+    },
+    {
+      "id": 109,
+      "text": "When the separate self relaxes, peace is revealed.",
+      "theme": "peace"
+    },
+    {
+      "id": 110,
+      "text": "You don't have awareness. You are awareness.",
+      "theme": "awareness"
+    },
+    {
+      "id": 111,
+      "text": "The desire to understand awareness is the mind's last attempt to possess what it cannot grasp.",
+      "theme": "awareness"
+    },
+    {
+      "id": 112,
+      "text": "Every experience is the play of awareness with itself.",
+      "theme": "awareness"
+    },
+    {
+      "id": 113,
+      "text": "Liberation is not freedom from experience. It is freedom as awareness.",
+      "theme": "recognition"
+    },
+    {
+      "id": 114,
+      "text": "The direct path does not lead to awareness. It reveals what you already are.",
+      "theme": "direct-path"
+    },
+    {
+      "id": 115,
+      "text": "In the absence of seeking, happiness shines by itself.",
+      "theme": "happiness"
+    },
+    {
+      "id": 116,
+      "text": "The witness is not separate from awareness. It is awareness recognizing itself.",
+      "theme": "awareness"
+    },
+    {
+      "id": 117,
+      "text": "Nothing is outside awareness. Everything is an expression of it.",
+      "theme": "oneness"
+    },
+    {
+      "id": 118,
+      "text": "The separate self is not your enemy. It is a misunderstanding to be seen through.",
+      "theme": "self"
+    },
+    {
+      "id": 119,
+      "text": "Awareness is both completely empty and completely full.",
+      "theme": "awareness"
+    },
+    {
+      "id": 120,
+      "text": "You are already home. Just notice.",
+      "theme": "recognition"
+    }
+  ]
+}
