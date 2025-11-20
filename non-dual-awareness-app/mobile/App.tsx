@@ -5,134 +5,88 @@
 
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View, Text, ActivityIndicator, StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { View, Text, ActivityIndicator } from 'react-native';
+import { usePreferences } from './src/store/usePreferences';
+import { initDatabase } from './src/lib/storage/database';
+import TabLayout from './src/app/(tabs)/_layout';
 
-// MINIMAL TEST VERSION - bypassing all complex initialization
 export default function App() {
-  const [phase, setPhase] = useState('loading');
+  const { theme, loadPreferences } = usePreferences();
+  const [isReady, setIsReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    console.log('=== APP STARTING ===');
-    console.log('Phase: Loading');
-
-    // Simple timeout to test rendering
-    const timer = setTimeout(() => {
-      console.log('Phase: Attempting to load full app');
-      loadFullApp();
-    }, 2000);
-
-    return () => clearTimeout(timer);
+    initializeApp();
   }, []);
 
-  const loadFullApp = async () => {
+  const initializeApp = async () => {
     try {
-      console.log('Step 1: Importing dependencies...');
+      console.log('Starting app initialization...');
 
-      // Dynamically import to catch errors
-      const { NavigationContainer } = await import('@react-navigation/native');
-      const { SafeAreaProvider } = await import('react-native-safe-area-context');
-      console.log('Step 2: Navigation imports successful');
+      // Load preferences (safe to fail)
+      try {
+        await loadPreferences();
+        console.log('✓ Preferences loaded');
+      } catch (err) {
+        console.warn('Preferences failed to load, using defaults:', err);
+      }
 
-      const { usePreferences } = await import('./src/store/usePreferences');
-      console.log('Step 3: Store imports successful');
+      // Initialize database (safe to fail)
+      try {
+        await initDatabase();
+        console.log('✓ Database initialized');
+      } catch (err) {
+        console.warn('Database failed to initialize:', err);
+      }
 
-      const { initDatabase } = await import('./src/lib/storage/database');
-      console.log('Step 4: Database imports successful');
-
-      // Try to initialize
-      console.log('Step 5: Loading preferences...');
-      // Skip for now - just test rendering
-
-      console.log('Step 6: All imports successful!');
-      setPhase('ready');
-
+      // Mark as ready regardless
+      setIsReady(true);
+      console.log('✓ App ready!');
     } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : String(err);
-      console.error('=== ERROR DURING LOAD ===', errorMessage, err);
+      const errorMessage = err instanceof Error ? err.message : 'Unknown error';
+      console.error('Fatal error during init:', errorMessage, err);
       setError(errorMessage);
-      setPhase('error');
+      setIsReady(true);
     }
   };
 
-  // Error state
-  if (phase === 'error') {
+  const isDark = theme === 'dark';
+
+  // Show error screen if fatal error occurred
+  if (error) {
     return (
-      <View style={styles.container}>
-        <Text style={styles.errorTitle}>App Error</Text>
-        <Text style={styles.errorText}>{error}</Text>
-        <Text style={styles.hint}>Check console for details</Text>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FAF9F7', padding: 20 }}>
+        <Text style={{ fontSize: 20, color: '#CC3333', marginBottom: 16, fontWeight: 'bold' }}>
+          Initialization Error
+        </Text>
+        <Text style={{ color: '#6B6662', textAlign: 'center', lineHeight: 20 }}>
+          {error}
+        </Text>
       </View>
     );
   }
 
-  // Loading state
-  if (phase === 'loading') {
+  // Loading screen
+  if (!isReady) {
     return (
-      <View style={styles.container}>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FAF9F7' }}>
         <ActivityIndicator size="large" color="#8B7355" />
-        <Text style={styles.loadingText}>Starting App...</Text>
-        <Text style={styles.version}>v1.0.1-debug</Text>
+        <Text style={{ marginTop: 16, color: '#6B6662' }}>
+          Preparing...
+        </Text>
       </View>
     );
   }
 
-  // Ready state - show simple success screen first
+  // Main app
   return (
-    <View style={styles.container}>
-      <Text style={styles.successTitle}>✓ App Loaded Successfully!</Text>
-      <Text style={styles.successText}>Basic rendering works</Text>
-      <Text style={styles.hint}>Full app coming soon...</Text>
-      <StatusBar style="dark" />
-    </View>
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <TabLayout />
+        <StatusBar style={isDark ? 'light' : 'dark'} />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#FAF9F7',
-    padding: 20,
-  },
-  errorTitle: {
-    fontSize: 24,
-    color: '#CC3333',
-    marginBottom: 16,
-    fontWeight: 'bold',
-  },
-  errorText: {
-    color: '#6B6662',
-    textAlign: 'center',
-    lineHeight: 24,
-    fontSize: 16,
-  },
-  loadingText: {
-    marginTop: 16,
-    color: '#6B6662',
-    fontSize: 18,
-  },
-  successTitle: {
-    fontSize: 28,
-    color: '#8B7355',
-    marginBottom: 16,
-    fontWeight: 'bold',
-  },
-  successText: {
-    color: '#6B6662',
-    fontSize: 18,
-    marginBottom: 8,
-  },
-  hint: {
-    marginTop: 20,
-    color: '#999',
-    fontSize: 14,
-    textAlign: 'center',
-  },
-  version: {
-    marginTop: 8,
-    color: '#CCC',
-    fontSize: 12,
-  },
-});
