@@ -30,15 +30,25 @@ export default function ContemplateScreen() {
   }, []);
 
   const loadContent = () => {
-    // Load daily pointer
-    const { pointer, index } = contentLoader.getTodayPointer(lastDailyPointerIndex);
-    setDailyPointer(pointer);
+    try {
+      // Load daily pointer
+      const { pointer, index } = contentLoader.getTodayPointer(lastDailyPointerIndex);
+      setDailyPointer(pointer);
 
-    // Load all pointers
-    setAllPointers(contentLoader.getAllPointers());
+      // Load all pointers
+      setAllPointers(contentLoader.getAllPointers());
 
-    // Load teaching categories
-    setCategories(contentLoader.getAllTeachingCategories());
+      // Load teaching categories
+      setCategories(contentLoader.getAllTeachingCategories());
+    } catch (error) {
+      console.error('Error loading content:', error);
+      // Set empty fallbacks
+      setDailyPointer({
+        id: 0,
+        text: 'Welcome to the Non-Dual Awareness app. Content is loading...',
+        theme: 'awareness'
+      });
+    }
   };
 
   const refreshDailyPointer = () => {
