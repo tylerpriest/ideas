@@ -1,20 +1,28 @@
 /**
  * Database Layer
- * SQLite database setup and operations
+ * SQLite database setup and operations (web-compatible)
  */
 
-import * as SQLite from 'expo-sqlite';
+import { Platform } from 'react-native';
 
 const DATABASE_NAME = 'awareness.db';
 
 // Database instance
-let db: SQLite.SQLiteDatabase | null = null;
+let db: any = null;
+const isWeb = Platform.OS === 'web';
 
 /**
  * Initialize the database and create tables
  */
 export const initDatabase = async (): Promise<void> => {
+  // Skip SQLite on web - not supported
+  if (isWeb) {
+    console.log('Web platform detected - using in-memory storage');
+    return;
+  }
+
   try {
+    const SQLite = await import('expo-sqlite');
     db = await SQLite.openDatabaseAsync(DATABASE_NAME);
 
     // Create journal entries table
@@ -65,7 +73,10 @@ export const initDatabase = async (): Promise<void> => {
 /**
  * Get database instance
  */
-export const getDatabase = (): SQLite.SQLiteDatabase => {
+export const getDatabase = (): any => {
+  if (isWeb) {
+    return null; // Web doesn't use database
+  }
   if (!db) {
     throw new Error('Database not initialized. Call initDatabase() first.');
   }
@@ -113,6 +124,7 @@ export const journalOperations = {
    * Get all journal entries
    */
   getAll: async (): Promise<JournalEntry[]> => {
+    if (isWeb) return []; // Web: return empty array
     const database = getDatabase();
     const result = await database.getAllAsync<JournalEntry>(
       'SELECT * FROM journal_entries ORDER BY created_at DESC'

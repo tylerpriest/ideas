@@ -7,9 +7,8 @@ import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { View, Text, ActivityIndicator } from 'react-native';
+import { View, Text, ActivityIndicator, Platform } from 'react-native';
 import { usePreferences } from './src/store/usePreferences';
-import { initDatabase } from './src/lib/storage/database';
 import TabLayout from './src/app/(tabs)/_layout';
 
 export default function App() {
@@ -33,12 +32,17 @@ export default function App() {
         console.warn('Preferences failed to load, using defaults:', err);
       }
 
-      // Initialize database (safe to fail)
-      try {
-        await initDatabase();
-        console.log('✓ Database initialized');
-      } catch (err) {
-        console.warn('Database failed to initialize:', err);
+      // Initialize database (skip on web)
+      if (Platform.OS !== 'web') {
+        try {
+          const { initDatabase } = await import('./src/lib/storage/database');
+          await initDatabase();
+          console.log('✓ Database initialized');
+        } catch (err) {
+          console.warn('Database failed to initialize:', err);
+        }
+      } else {
+        console.log('✓ Web platform - skipping database');
       }
 
       // Mark as ready regardless
