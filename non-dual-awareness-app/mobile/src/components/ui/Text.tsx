@@ -55,17 +55,6 @@ export const Text: React.FC<TextComponentProps> = ({
   };
   const multiplier = fontSizeMultipliers[userFontSize];
 
-  // Get font family
-  const getFontFamily = () => {
-    if (family === 'display') {
-      return semibold ? Typography.fonts.display : Typography.fonts.displayRegular;
-    } else if (family === 'ui') {
-      return Typography.fonts.uiRegular;
-    } else {
-      return semibold ? Typography.fonts.bodySemibold : Typography.fonts.body;
-    }
-  };
-
   // Get text color
   const getTextColor = () => {
     if (customColor) return customColor;
@@ -86,11 +75,11 @@ export const Text: React.FC<TextComponentProps> = ({
   const textStyles = [
     styles.base,
     {
-      fontFamily: getFontFamily(),
       fontSize: Typography.sizes[variant] * multiplier,
       lineHeight: Typography.lineHeights[variant] * multiplier,
       color: getTextColor(),
-      textAlign: center ? 'center' : 'left',
+      textAlign: center ? ('center' as const) : ('left' as const),
+      fontWeight: semibold ? ('600' as const) : ('400' as const),
     },
     style,
   ];
