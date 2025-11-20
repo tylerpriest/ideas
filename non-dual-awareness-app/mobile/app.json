@@ -31,6 +31,18 @@
     "plugins": [
       "expo-sqlite",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e8e810ed-a1ac-437a-b9d0-6517a8236b8f"
+      }
+    },
+    "owner": "tylerpriest",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e8e810ed-a1ac-437a-b9d0-6517a8236b8f"
+    }
   }
 }
